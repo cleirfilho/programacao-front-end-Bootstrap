@@ -1,0 +1,100 @@
+/* Gerais */
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p, li {
+  color: #444;
+  font-size: 14px;
+}
+
+/* Barra de navegação */
+
+header, .navbar {
+  background-color: #353D41;
+  position: relative;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 75px;
+}
+
+.navbar-brand {
+  padding: 0;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+/* sore */
+
+.main-title{
+  color: black;
+  font-size: 3rem;
+  margin: 0 0 0 0;
+}
+.line{
+  border-top: 2px solid #333;
+  width: 10%;
+  margin: 0 auto;
+}
+.about-title{
+  color: black;
+  font-size: 2rem;
+ text-align: left;
+}
+
+.about-list li {
+  font-size: 2rem;
+}
+.sobre p{
+ font-size: 1rem;
+}
+.about-list i {
+  color: aquamarine;
+  font-size: 1rem;
+
+}
+/* servicos */
+
+.service-box{
+  text-align: center;
+}
+.service-box h2{
+  font-size: 1.5rem;
+}
+.service-box p {
+  font-size: 1rem;
+}
+.service-box i {
+  font-size: 3rem;
+}
