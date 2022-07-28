@@ -25,7 +25,7 @@
     <div class="contanier container-fluid" id="nav-container">
       <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/mvp_logo.svg" id="logo" alt="MVP">MVP Studio</a>
+          <a class="navbar-brand" href="#"><span class="logo-texto-header">CL</span> Desenvolvimento de software</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -33,8 +33,8 @@
           </button>
           <div class="collapse navbar-collapse  flex-row-reverse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <li class="nav-item active">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Sobre</a>
@@ -57,9 +57,8 @@
       </nav>
     </div>
   </header>
-
+  <main>
   <div class="container-fluid p-0">
-    <main>
       <div class="row">
         <div class="col-md-12 col-sm-12 p-0">
           <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
@@ -106,42 +105,41 @@
           </div>
         </div>
       </div>
-    </main>
+    
     <!--  sobre -->
-    <div class="row sobre">
-      <div class="row mb-5 mt-5">
-        <div class="col-md-12">
-          <h1 class="main-title text-center">Sobre</h1>
-          <div class="line"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="img/agencia.jpg" class="img-fluid" alt="...">
-        </div>
-        <div class="col-md-6 mt-3 mt-md-0">
-          <h3 class="about-title ">Uma agência para seu futuro</h3>
-          <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas magnam blanditiis iste officiis
-            atque, nisi eaque temporibus cupiditate illum incidunt dolorem illo autem nam porro possimus reiciendis.
-            Modi, culpa ipsa. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque cumque quo
-            praesentium tempora illum nemo sint sed! Laudantium fugiat eaque velit obcaecati nihil nobis, ab totam atque
-            dolorum quos voluptatem.
-          </p>
-          <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas magnam blanditiis iste officiis
-            atque, nisi eaque temporibus cupiditate illum incidunt dolorem illo autem nam porro possimus reiciendis.
-            Modi, culpa ipsa. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque cumque quo
-            praesentium tempora illum nemo sint sed! Laudantium fugiat eaque velit obcaecati nihil nobis, ab totam atque
-            dolorum quos voluptatem.
-          </p>
-          <ul class="about-list">
-            <p><i class="bi bi-bookmark-check"></i>Layout responsivo para todas as aplicaçoes</p>
-            <p><i class="bi bi-bookmark-check"></i>Aplicação de iteligencia artificial</p>
-            <p><i class="bi bi-bookmark-check"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-              excepturi.</p>
-            <p><i class="bi bi-bookmark-check"></i>Lorem ipsum dolor sit amet consectetur.</p>
-            <p><i class="bi bi-bookmark-check"></i>Lorem ipsum dolor sit amet consectetur.</p>
-            <p><i class="bi bi-bookmark-check"></i>Lorem ipsum dolor sit amet consectetur.</p>
-          </ul>
+    <div class="sobre">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="main-title">Sobre</h1>
+          </div>
+          <div class="col-md-6">
+            <img src="img/agencia.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-md-6 mt-3 mt-md-0">
+            <h3 class="about-title ">Uma agência para seu futuro</h3>
+            <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas magnam blanditiis iste officiis
+              atque, nisi eaque temporibus cupiditate illum incidunt dolorem illo autem nam porro possimus reiciendis.
+              Modi, culpa ipsa. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque cumque quo
+              praesentium tempora illum nemo sint sed! Laudantium fugiat eaque velit obcaecati nihil nobis, ab totam atque
+              dolorum quos voluptatem.
+            </p>
+            <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas magnam blanditiis iste officiis
+              atque, nisi eaque temporibus cupiditate illum incidunt dolorem illo autem nam porro possimus reiciendis.
+              Modi, culpa ipsa. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque cumque quo
+              praesentium tempora illum nemo sint sed! Laudantium fugiat eaque velit obcaecati nihil nobis, ab totam atque
+              dolorum quos voluptatem.
+            </p>
+            <ul class="about-list">
+              <p><i class="bi bi-bookmark-check"></i>Layout responsivo para todas as aplicaçoes</p>
+              <p><i class="bi bi-bookmark-check"></i>Aplicação de iteligencia artificial</p>
+              <p><i class="bi bi-bookmark-check"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+                excepturi.</p>
+              <p><i class="bi bi-bookmark-check"></i>Lorem ipsum dolor sit amet consectetur.</p>
+              <p><i class="bi bi-bookmark-check"></i>Lorem ipsum dolor sit amet consectetur.</p>
+              <p><i class="bi bi-bookmark-check"></i>Lorem ipsum dolor sit amet consectetur.</p>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -284,7 +282,7 @@
        <div id="portfolio-area">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 mb-5">
               <h3 class="main-title text-center mb-3">Conheça nossos projetos</h3>
             </div>
             <div class="col-md-12" id="filter-btn-box">
@@ -314,11 +312,76 @@
           </div>
         </div>
       </div>
-
-
+      <!-- Newsletter -->
+      <div id="news-area">
+        <div class="container">
+          <div class="col-md-12">
+            <h3 class="main-title">Fique por dentro das novidades</h3>
+          </div>
+          <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre desenvolvimento de software</p>
+          <form action="">
+            <input type="text" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+            <input type="submit" id="news-btn" value="Inscrever">
+          </form>
+        </div>
+      </div>
+      <!-- Call to Action -->
+      <div id="call-area">
+        <div class="container">
+            <div class="row">
+              <p>Deseja fazer um orçamento sem compromisso?</p>
+              <button class="main-btn" id="call-btn">Orçar</button>
+            </div>
+          </div>
+      </div>
+    </div>
   </div>
-
-  <footer></footer>
+</main>
+   <!-- Rodapé -->
+   <footer>
+    <div id="contact-area">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Entre em contato conosco</h3>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="bi bi-telephone-fill p-2"></i>
+              <p><span class="contact-tile">Ligue para:</span> (68)99999-9999</p>
+              <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="bi bi-envelope p-2"></i>
+              <p><span class="contact-tile">Envie um email:</span> contato@CLdeveloper.com.br</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="bi bi-geo-fill p-2 "></i>
+              <p><span class="contact-tile">Venha tomar um café:</span> Rua Lorem Ipsum - 236</p>
+            </div>
+            <div class="col-md-6" id="msg-box">
+              <p>Ou nos deixe uma mensagem:</p>
+            </div>
+            <div class="col-md-6" id="contact-form">
+              <form action="">
+                <input type="text" class="form-control" placeholder="E-mail" name="email">
+                <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                <input type="submit" class="main-btn">
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <p>Desenvolvido por <a href="https://cleirfilho.github.io/" target="_blank" style=" text-decoration: none;"><span class="fs-5 Logo-texto">CL</span> Desenvolvimentos de Software</a></p> &copy; 2021</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- Documento de scriots em JavaScript -->
   <!-- Bootstrap v 5.2-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
